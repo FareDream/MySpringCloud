@@ -1,0 +1,2 @@
+访问启动并运行应用后页面中显示的instance currently registered with Eureka为在该注册中心注册的服务内容为空则表示没有注册服务
+eureka.client.register-with-eureka则会屏蔽注册中心本身的服务注册，即如果他为false则在instance currently registered with Eureka中不会显示本类服务
